@@ -73,6 +73,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="back button"/>
+                                <connections>
+                                    <action selector="tapBackButton:" destination="9du-Rz-qbo" eventType="touchUpInside" id="bLr-vc-Om4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q3N-HN-eGX"/>
