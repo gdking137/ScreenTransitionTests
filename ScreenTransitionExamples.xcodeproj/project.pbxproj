@@ -15,6 +15,7 @@
 		D4B06E0E293F0DC0008A6D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B06E0C293F0DC0008A6D85 /* LaunchScreen.storyboard */; };
 		D4B06E16293F1002008A6D85 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B06E15293F1002008A6D85 /* SeguePushViewController.swift */; };
 		D4B06E18293FA6D9008A6D85 /* SeguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B06E17293FA6D9008A6D85 /* SeguePresentViewController.swift */; };
+		D4B06E1A293FAAAD008A6D85 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B06E19293FAAAD008A6D85 /* CodePushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D4B06E0F293F0DC0008A6D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B06E15293F1002008A6D85 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
 		D4B06E17293FA6D9008A6D85 /* SeguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePresentViewController.swift; sourceTree = "<group>"; };
+		D4B06E19293FAAAD008A6D85 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D4B06E0F293F0DC0008A6D85 /* Info.plist */,
 				D4B06E15293F1002008A6D85 /* SeguePushViewController.swift */,
 				D4B06E17293FA6D9008A6D85 /* SeguePresentViewController.swift */,
+				D4B06E19293FAAAD008A6D85 /* CodePushViewController.swift */,
 			);
 			path = ScreenTransitionExamples;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B06E16293F1002008A6D85 /* SeguePushViewController.swift in Sources */,
+				D4B06E1A293FAAAD008A6D85 /* CodePushViewController.swift in Sources */,
 				D4B06E06293F0DBE008A6D85 /* ViewController.swift in Sources */,
 				D4B06E02293F0DBE008A6D85 /* AppDelegate.swift in Sources */,
 				D4B06E18293FA6D9008A6D85 /* SeguePresentViewController.swift in Sources */,
