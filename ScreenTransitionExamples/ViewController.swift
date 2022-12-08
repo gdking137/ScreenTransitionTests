@@ -35,6 +35,16 @@ class ViewController: UIViewController,SendDataDelegate {
         //버튼 후 네비게이션 스택에 새로운 화면 추가
         
     }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if let viewcontroller = segue.destination as? SeguePushViewController{
+            viewcontroller.name = "Gunter"
+        }
+        
+    }
+    
+    
     func sendData(name: String) {
         self.nameLabel.text = name
         self.nameLabel.sizeToFit()
